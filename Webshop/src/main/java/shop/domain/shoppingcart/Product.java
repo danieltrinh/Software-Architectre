@@ -1,15 +1,12 @@
-package shop.domain;
+package shop.domain.shoppingcart;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document("product")
 public class Product {
-	@Id
 	private String productNumber;
 	private double price;
 	private String description;
-	private Stock stock;
 	
 	public Product(String productNumber, double price, String description) {
 		super();
@@ -35,13 +32,4 @@ public class Product {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public Stock getStock() {
-		return stock;
-	}
-	public void setStock(Stock stock) {
-		this.stock = stock;
-	}
-	
-	
-	
 }

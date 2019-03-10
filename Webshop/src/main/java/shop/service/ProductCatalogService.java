@@ -5,8 +5,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import shop.domain.Product;
-import shop.domain.Stock;
+import shop.domain.product.Product;
+import shop.domain.product.Stock;
 import shop.repository.ProductRepository;
 
 @Service

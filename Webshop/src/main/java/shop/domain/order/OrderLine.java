@@ -1,11 +1,10 @@
-package shop.domain;
+package shop.domain.order;
 
-public class CartLine {
-	
+public class OrderLine {
 	private Product product;
 	private int quantity;
 	
-	public CartLine(Product product, int quantity) {
+	public OrderLine(Product product, int quantity) {
 		super();
 		this.product = product;
 		this.quantity = quantity;
@@ -26,6 +25,5 @@ public class CartLine {
 	public void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
-	
 	
 }

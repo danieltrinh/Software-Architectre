@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import shop.domain.Product;
+import shop.domain.product.Product;
 import shop.service.ProductCatalogService;
 
 @RestController

@@ -1,4 +1,4 @@
-package shop.domain;
+package shop.domain.shoppingcart;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -6,6 +6,8 @@ import java.util.List;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+
+import shop.domain.product.Product;
 
 @Document
 public class ShoppingCart {

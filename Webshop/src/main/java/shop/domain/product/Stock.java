@@ -1,5 +1,8 @@
-package shop.domain;
+package shop.domain.product;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document
 public class Stock {
 	private int quality;
 	private String locationCode;
