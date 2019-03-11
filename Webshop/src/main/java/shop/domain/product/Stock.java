@@ -7,6 +7,11 @@ public class Stock {
 	private int quality;
 	private String locationCode;
 	
+	public Stock() {
+	
+	}
+	
+
 	public Stock(int quality, String locationCode) {
 		super();
 		this.quality = quality;

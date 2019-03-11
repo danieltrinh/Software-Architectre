@@ -17,7 +17,11 @@ public class Order {
 	
 
 	private List<OrderLine> orderLines = new ArrayList<>();
-	
+
+	public Order() {
+		
+	}
+
 	public Order(String orderId, Date date, String status) {
 		super();
 		this.orderId = orderId;

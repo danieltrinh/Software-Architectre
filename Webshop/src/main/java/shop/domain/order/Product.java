@@ -8,6 +8,10 @@ public class Product {
 	private double price;
 	private String description;
 	
+	public Product() {
+		
+	}
+	
 	public Product(String productNumber, double price, String description) {
 		super();
 		this.productNumber = productNumber;

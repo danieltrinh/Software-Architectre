@@ -10,6 +10,10 @@ public class CartLine {
 	private Product product;
 	private int quantity;
 	
+	public CartLine() {
+		
+	}
+	
 	public CartLine(Product product, int quantity) {
 		super();
 		this.product = product;

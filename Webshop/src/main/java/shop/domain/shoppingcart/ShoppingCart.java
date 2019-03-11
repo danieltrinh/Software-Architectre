@@ -16,6 +16,10 @@ public class ShoppingCart {
 	private String cartId;
 	private List<CartLine> cartLines = new ArrayList<>();
 	
+	public ShoppingCart() {
+		
+	}
+	
 	public ShoppingCart(String cartId) {
 		super();
 		this.cartId = cartId;

@@ -11,6 +11,10 @@ public class Product {
 	private String description;
 	private Stock stock;
 	
+	public Product() {
+		
+	}
+	
 	public Product(String productNumber, double price, String description) {
 		super();
 		this.productNumber = productNumber;
